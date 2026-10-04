@@ -1,0 +1,17 @@
+workload,variant,structure,n,time_ms,steps,moves,comparisons
+B,random,Floyd,100,0.000500,334,202,184
+B,random,RepeatedInsert,100,0.000600,306,212,194
+B,descending,Floyd,100,0.000500,340,246,190
+B,descending,RepeatedInsert,100,0.001400,592,592,480
+B,random,Floyd,1000,0.004500,3357,2147,1857
+B,random,RepeatedInsert,1000,0.011000,3240,2247,2232
+B,descending,Floyd,1000,0.003400,3482,2492,1982
+B,descending,RepeatedInsert,1000,0.013600,8995,8995,7987
+B,random,Floyd,10000,0.072700,33740,21379,18740
+B,random,RepeatedInsert,10000,0.160100,38961,28971,22593
+B,descending,Floyd,10000,0.032500,34982,24992,19982
+B,descending,RepeatedInsert,10000,0.164100,129999,129999,113631
+B,random,Floyd,100000,0.766900,338424,213453,188424
+B,random,RepeatedInsert,100000,1.348400,358718,258731,227662
+B,descending,Floyd,100000,0.337100,349978,249990,199978
+B,descending,RepeatedInsert,100000,2.143900,1600002,1600002,1468946
