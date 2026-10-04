@@ -1,0 +1,15 @@
+Seed: 42
+Global JVM priming: 60 discarded rounds of all workloads at n=1000
+Warm-up runs per case: 2
+Measured runs per case: 5
+Statistic: median time; counters from the same run
+W1-W3: initial fill excluded; W4: insertion and extraction included
+W3: 1000 insertions, then 1000 removals; fixed index 0 or original n/2
+Verification, data generation and plotting excluded from timing/counters
+Instrumentation enabled during timings; fixed ascending n and array-before-list case order
+Clock: System.nanoTime; no forced GC; single JVM and single benchmark thread
+Java: 19.0.2+7-44
+VM: Java HotSpot(TM) 64-Bit Server VM
+OS: Windows 11 10.0 amd64
+Available processors: 12
+Max JVM heap bytes: 1977614336
